@@ -144,11 +144,12 @@ const SignUp = () => {
     };
 
     return (
-        <div className='container'>
+    
+        <div className='container-signup'>
             <section className='img-logo-section-left'>
                 <img className='img-company-logo' src={companyLogo} alt="Company Logo" />
             </section>
-            <div className='signup-right'>
+            <div className='signup-inner-container'>
                 <div className='square'>
                     <h1 className='heading'>Create an Account</h1>
                     <p className='text'>Please provide your details to sign up.</p>
@@ -206,9 +207,9 @@ const SignUp = () => {
                             {loading ? 'Loading...' : 'Sign up'}
                         </button>
                     </form>
-                     <p className='p-for-signin'>
+                     <p className=''>
                         Already have an account?
-                        <Link to="/signin" className="f-w-400"> Sign In</Link>
+                        <Link to="/signin" className=""> Sign In</Link>
                     </p>
                 </div>
             </div>

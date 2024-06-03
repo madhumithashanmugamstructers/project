@@ -14,6 +14,7 @@
 // src/store/store.js
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import thunk from 'redux-thunk';
+import rootReducer from './reducers'; // Your combined reducers file
 import authReducer from '../authSlice';
 
 const store = configureStore({
