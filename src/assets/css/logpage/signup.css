@@ -1,0 +1,59 @@
+.signup-right{
+    margin-right: 33vh;
+
+  } 
+  .popup{
+    color: rgb(17, 166, 17);
+    margin-right: 22vh;
+  }
+  
+  @media (max-width: 768px) {
+    .signup-right{
+        margin-left: 28vh;
+    }
+
+  }
+
+.p-for-signin{
+   
+    margin-top: 3vh;
+}
+
+.button-for-signup{
+    background-color:#0056b3;
+    text-align: center;
+    color: #0d75e4;
+    margin-top: 10px;
+    top: 20vh;
+    color: white;
+    border-radius: 5%;
+    height: 5vh;
+    width: 130%;
+    margin-top: 1vh;
+    border: none;
+}
+.button-for-signup:hover{
+    background-color: #0056b3;
+    cursor: pointer;
+}
+.password-input-container .toggle-visibility {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.password-input-container .form-control {
+  width: 100%;
+  padding-right: 40px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.toggle-visibility{
+  border: none;
+  background-color: none;
+}
