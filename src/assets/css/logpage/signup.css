@@ -4,9 +4,9 @@
     align-items: center;
     padding: 1rem;
     background-color: #F8F8F8;
-    width: 90%; /* Adjusted to ensure 5% margin on left and right */
-    height: 85vh; /* Adjusted to ensure 5% margin on top and bottom */
-    margin: 5vh 5%; /* 5% margin from top, bottom, left, and right */
+    width: 90%; 
+    height: 85vh;
+    margin: 5vh 5%;
     line-height: normal;
     border-radius: 10px;
     overflow: hidden;
@@ -63,6 +63,12 @@
     margin: 10% auto;
   }
 }
+@media (max-width: 768px) {
+  .form-control-signup {
+    width: 100%; 
+  }
+}
+
 
 .form-control-signup {
   outline: none;
