@@ -78,13 +78,17 @@ export const JWTProvider = ({ children }) => {
     navigate('/signin');
   };
 
+  //it runs when it loading or refreshing 
+
+
+
   useEffect(() => {
     const init = async () => {
       try {
         const access_token = localStorage.getItem('credentials');
         if (access_token && verifyToken(access_token)) {
           setSession(access_token);
-          const response = await axios.get('/api/account/me');
+          const response = await axios.get('http://192.168.1.103:8000/users/me');
           const { user } = response.data;
           dispatch({
             type: ACCOUNT_INITIALISE,
