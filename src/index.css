@@ -7,16 +7,13 @@
 
 }
 @media (max-width: 768px)  {
-  body {
-    background-color:palevioletred;
-    display: none;
-  }
+  
 }
 
 body {
-  background-image: url('assets/images/signin/backgroun_for_webpage2.jpg'); 
+  /* background-image: url('assets/images/signin/backgroun_for_webpage2.jpg');  */
   background-size: cover;
-  background-color: yellow;
+  /* background-color: yellow; */
   background-position: center;
   background-repeat: no-repeat;
   padding: 0;
